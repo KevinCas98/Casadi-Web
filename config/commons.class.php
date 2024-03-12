@@ -81,7 +81,7 @@ class Commons {
 
         $url = "https://fcm.googleapis.com/fcm/send";
         $token = $device_token;
-        $serverKey = 'AAAASW2_KOc:APA91bFNLdhr-5gzEbSTskdrjBqgauVrvcAs2C6Xcv0CwtvaYudiZWFG-JV020pZJJJdgeS_aeZlh7n0SQH3MZChiTZRotmUyAms2xEAknoxlN76NB8FdR5KQSf8y5bOJ5665hLLXpPE';
+        $serverKey = '';
         $body = $message;
         $notification = array('title' =>$title , 'body' => $body, 'sound' => 'default', 'badge' => '1');
         $arrayToSend = array('to' => $token, 'notification' => $notification,'priority'=>'high');

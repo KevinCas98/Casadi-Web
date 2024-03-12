@@ -91,9 +91,6 @@ CREATE TABLE `collaborators` (
 -- Volcado de datos para la tabla `collaborators`
 --
 
-INSERT INTO `collaborators` (`id`, `id_institution`, `user_name`, `password`, `name`, `last_name`, `dni`, `email`, `id_rol`) VALUES
-(3, 1, 'mgarcia@lacalera.gob.ar', '123', 'Mauro', 'Garcia', '29742594', 'mgarcia@lacalera.gob.ar', 1);
-
 -- --------------------------------------------------------
 
 --
@@ -112,10 +109,6 @@ CREATE TABLE `contacts` (
 --
 -- Volcado de datos para la tabla `contacts`
 --
-
-INSERT INTO `contacts` (`id`, `id_store`, `name`, `last_name`, `email`, `cell_phone`) VALUES
-(4, 5, 'Mauro', 'Garcia', 'mauro@icox.com', '3512080146'),
-(5, 6, 'Mauro', 'Garcia', 'mauro@icox.com', '3512080146');
 
 -- --------------------------------------------------------
 
@@ -183,9 +176,6 @@ CREATE TABLE `institution` (
 -- Volcado de datos para la tabla `institution`
 --
 
-INSERT INTO `institution` (`id`, `name`) VALUES
-(1, 'Municipalidad de la Calera');
-
 -- --------------------------------------------------------
 
 --
@@ -248,8 +238,6 @@ CREATE TABLE `rol` (
 -- Volcado de datos para la tabla `rol`
 --
 
-INSERT INTO `rol` (`id`, `name`, `code_name`) VALUES
-(1, 'Super Admin', 'super_admin');
 
 -- --------------------------------------------------------
 
@@ -317,11 +305,6 @@ CREATE TABLE `users` (
 --
 -- Volcado de datos para la tabla `users`
 --
-
-INSERT INTO `users` (`id`, `id_collaborator`, `dni`, `date_checked`, `checked`, `checked_by`, `name`, `last_name`, `sex`, `date_of_birth`, `city`, `province`, `email`, `contact`, `user_name`, `password`, `token`, `type_of_card`, `dose_quantity`, `profile_img`, `device_token`) VALUES
-(3, NULL, '32566545', NULL, 0, NULL, 'Mauro', 'Garcia', 'Masculino', '22/02/1983', '', 'Córdoba', 'mauro@icox.com', '', 'mauro@icox.com', '123456', '9b080bce86', 'FÍSICO', 3, NULL, ''),
-(4, 3, '27654456', NULL, 2, NULL, 'Mauro', 'Garcia', 'Masculino', '22/02/1983', 'La Calera', 'Córdoba', 'mauro@icox.com', '', 'mauro@icox.com', '123456', 'c66ff9a9b0', 'DIGITAL', 4, NULL, ''),
-(13, 3, '42051156', '2022-04-07 16:55:33', 1, 3, 'Lautaro', 'A', 'Masculino', '01/02/1995', 'La Calera', 'Córdoba', 'yeyeimmonnofa-2559@yopmail.com', '35693636959', 'Lauti', '123', '', 'FÍSICO', 2, NULL, '');
 
 -- --------------------------------------------------------
 

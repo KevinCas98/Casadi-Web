@@ -1,9 +1,9 @@
 <?php
 
 class DbConnection {
-    private string $hostname       = "localhost";
-    private string $dbname         = "casadi";
-    private string $dbusername     = "root";
+    private string $hostname       = "";
+    private string $dbname         = "";
+    private string $dbusername     = "";
     private string $dbpassword     = "";
     protected $mysqli;
 

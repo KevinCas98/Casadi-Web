@@ -5,14 +5,14 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA0xILj5H3bRk5DuaDd9Lhv3EA_E-3MOYY",
-  authDomain: "ionicfirebase-418b4.firebaseapp.com",
-  databaseURL: "https://ionicfirebase-418b4-default-rtdb.firebaseio.com",
-  projectId: "ionicfirebase-418b4",
-  storageBucket: "ionicfirebase-418b4.appspot.com",
-  messagingSenderId: "315373856999",
-  appId: "1:315373856999:web:efa250cd574915b3ff5a42",
-  measurementId: "G-53L298MRE0"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
