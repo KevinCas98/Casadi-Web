@@ -1,0 +1,110 @@
+.icon-uncheck {
+    color: #c60a0a;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .uncheck {
+    font-size: 15px;
+    font-weight: 900;
+    color: #c60a0a;
+  }
+
+  .user-title{
+    font-size: 17.5px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    text-align: left;
+    color: #032835;
+    margin-bottom: 50px;
+  }
+
+  .user-text-style-1{
+    font-size: 12.5px;
+    font-weight: normal;
+  }
+
+  .container-data{
+    width: 100%;
+    /* height: 731.5px; */
+    border-radius: 21px;
+    box-shadow: 0 1.5px 3px 0 rgba(0, 0, 0, 0.85);
+    border: solid 1.5px #0b334d;
+    background-color: #0b334d;
+  }
+
+  .form-label {
+    color: #eb5e6c;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 1.37;
+  }
+  
+  .fs-6 {
+    width: 78px;
+  height: 15.5px;
+  margin: 3.5px 16.5px 7px 0.5px;
+  font-size: 12.5px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #e3dfdf;
+  }
+
+  .container-data .formDate {
+    color: #03283500;
+  }
+
+  .fs-3 {
+    font-weight: 775;
+    letter-spacing: normal;
+    color: #eb5e6c;
+  }
+
+  .form-subtitle {
+    color: #fff;
+  }
+
+  .submitValidation .btn {
+    border-radius: 75px;
+    background-color:#a9bf59;
+    font-weight: 700;
+  }
+
+  .incomplete{
+    font-size: 25px;
+    color:#dd0f0f;
+  }
+
+  .verify{
+    font-size: 25px;
+    color:#dfd006;
+  }
+
+  .verified{
+    font-size: 25px;
+    color:#08b108;
+  }
+
+  label {
+    color: rgb(169, 191, 89);
+  }
+
+  .btn-check:active+.btn-danger, .btn-check:checked+.btn-danger, .btn-danger.active, .btn-danger:active, .show>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #a9bf59;
+    border-color: #a9bf59;
+}
+
+.actived-select{
+  color: #eb5e6c;
+  font-weight: 700;
+}
+

@@ -1,0 +1,36 @@
+.card {
+    width: 375x;
+    height: 275px;
+    border-radius: 30.3px;
+    background-color: #eb5e6c;
+    text-align: center;
+    cursor: pointer;
+    /* background-image: url(/web/img/logoCasadi.png); */
+}
+
+.card-text {
+    width: auto;
+    height: auto;
+    margin: 15px 15px 15px 15px;
+    font-size: 27px;
+    font-weight: 550;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.00;
+    letter-spacing: normal;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.btn-danger {
+    color: #fff0;
+    background-color: #dc354500;
+    border-color: #dc354500;
+}
+
+.btn-danger:hover {
+    color: #fff0;
+    background-color: #bb2d3b00;
+    border-color: #ffffff00;
+}

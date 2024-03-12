@@ -1,0 +1,112 @@
+.body{
+  background-color: #05253b;
+}
+.body::after {
+    content: "";
+    background: url(../img/cdc-BSozBCQn6oY-unsplash@3x.png) center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    opacity: 0.15;
+}
+
+.menu{
+  background-color: #05253b;
+}
+
+.menu a{
+  font-size: 18px;
+  font-weight: 650;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+}
+
+.menu a:hover{
+  color: #eb5e6c;
+  text-decoration: underline 0.1em #eb5e6c;
+  text-underline-offset: 5px;
+}  
+
+.abm-title {
+  width: 240px;
+  height: 30px;
+  margin: 18px 38.5px 3.5px 18.9px;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eb5e6c;
+}
+
+.abm-title .text-style-1 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #587a8e;
+}
+
+.abm-title .text-style-2 {
+  font-weight: 700;
+}
+
+.active-menu{
+  color: #eb5e6c !important;
+  text-decoration: underline 0.1em #eb5e6c !important;
+  text-underline-offset: 5px;
+}
+
+.section-title{
+  padding: 0% 5% 0% 5%;
+  margin-bottom: 150px;
+}
+
+.section-body{
+  padding: 0% 6% 10% 6%;
+}
+
+.section-body table tr{
+  border-color: #e24559;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #e24559;
+}
+
+.table-hover > tbody > tr:hover {
+  --bs-table-accent-bg: #05253b;
+  color: #fff !important;
+}
+
+.table-hover > tbody > td:hover {
+  color: #fff;
+}
+
+.section-body table th{
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  color: #587a8e;
+}
+
+.section-body table tr{
+  vertical-align: middle;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.5;
+  letter-spacing: normal;
+  color: #05253b;
+}

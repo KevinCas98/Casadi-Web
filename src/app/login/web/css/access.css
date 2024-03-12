@@ -1,0 +1,33 @@
+.font-login {
+    width: 214px;
+    height: 22px;
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.37;
+    letter-spacing: normal;
+    color: #eb5e6c;
+  }
+
+ .input-login {
+    height: 55.5px;
+    margin: 10.5px 0 32.5px;
+    border-radius: 3.5px;
+    border: solid 0.5px #05253b;
+    background-color: #fcfcfc;
+  } 
+
+.button-login {
+    width: 208.5px;
+    height: 45.5px;
+    font-size: 20px;
+    border-radius: 14px;
+    background-color: #eb5e6c;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.37;
+    letter-spacing: normal;
+    color: #05253b;
+}
